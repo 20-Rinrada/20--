@@ -6,6 +6,9 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-s1 = int(input())
-s2 = int(input())
-s3 = int(input())
+s1 = int(input("กรุณากรอกคะแนนวิชาที่1: "))
+s2 = int(input("กรุณากรอกคะแนนวิชาที่2: "))
+s3 = int(input("กรุณากรอกคะแนนวิชาที่3: "))
+oprator = float(input("คะแนนเฉลี่ย"))
+if oprator == (s1+s2+s3)/3 :
+    print("s1+s2+s3/3")
